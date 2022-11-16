@@ -11,7 +11,7 @@ p.p1{
     position: relative;
     top: 40%;
     left: 30%;
-    width: 6em;
+    width: 12%;
 
 }
 p.p1:hover{
@@ -24,7 +24,7 @@ p.p2{
     position: relative;
     top: 40%;
     left: 50%;
-    width: 6em;
+    width: 12%;
 
 }
 p.p2:hover{

@@ -28,17 +28,15 @@ p.p2{
 
 }
 p.p2:hover{
-   /* background: gray;*/
     cursor: pointer;
 }
 #si{
     background: #515050;
     margin: 0 auto;
-   /* left: 420px;*/
     position: relative;
-    top: 122px;
-    width: 550px;
+    top: 10em;
+    width: 50%;
     color: #ffffff;
-    padding: 50px;
+    padding: 2em;
     display: none;
 }

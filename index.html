@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quieres ser mi cliente</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.p1').hover(function(){
+                arriba = Math.random()*(400-1) +1;
+                abajo = Math.random() * (609-1) +1;
+              $(this).css('top', arriba);
+              $(this).css('left', abajo);
+            });
+        });
+    function dijoSi(){
+        document.getElementById('si').style.display = 'block';
+    }
+    </script>
+</head>
+<body>
+
+        <i class="i text-secondary">@soygabydigital</i>
+
+    
+    <div class="container">
+        
+        <div class="text-center" style="margin-top: 2em;">
+            <h1> <strong>¿Quieres ser mi cliente?</strong>  </h1>
+        </div>
+        <div class="opciones">
+            <p class="p1 btn btn-dark">No</p>
+            <p onclick="dijoSi()" class="p2 btn btn-dark">Si</p>
+            <div id="si">
+                <h2>Lo sabía. Escríbeme al DM para mas información.</h2>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

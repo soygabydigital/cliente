@@ -1,0 +1,44 @@
+.i{
+    font-size: 10px;
+    margin-left: 45%;
+}
+
+.container{
+    margin-top: 1em;
+}
+
+p.p1{
+    position: relative;
+    top: 25%;
+    left: 30%;
+    width: 6em;
+
+}
+p.p1:hover{
+    background: gray;
+    cursor: pointer;
+    
+}
+
+p.p2{
+    position: relative;
+    top: 25%;
+    left: 50%;
+    width: 6em;
+
+}
+p.p2:hover{
+   /* background: gray;*/
+    cursor: pointer;
+}
+#si{
+    background: #515050;
+    margin: 0 auto;
+   /* left: 420px;*/
+    position: relative;
+    top: 122px;
+    width: 550px;
+    color: #ffffff;
+    padding: 50px;
+    display: none;
+}

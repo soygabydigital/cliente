@@ -9,9 +9,9 @@
 
 p.p1{
     position: relative;
-    top: 40%;
-    left: 30%;
-    width: 12%;
+    /*top: 40%;*/
+   /* left: 30%;*/
+    width: 3em;
 
 }
 p.p1:hover{
@@ -20,11 +20,15 @@ p.p1:hover{
     
 }
 
+.row{
+    padding-left: 25%;
+}
+
 p.p2{
     position: relative;
-    top: 40%;
-    left: 50%;
-    width: 12%;
+    /*top: 40%;*/
+    /*left: 70%;*/
+    width: 3em;
 
 }
 p.p2:hover{

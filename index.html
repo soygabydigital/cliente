@@ -10,8 +10,8 @@
     <script>
         $(document).ready(function(){
             $('.p1').hover(function(){
-                arriba = Math.random()*(400-1) +1;
-                abajo = Math.random() * (609-1) +1;
+                arriba = Math.random()*(100-1) +1;
+                abajo = Math.random() * (100-1) +1;
               $(this).css('top', arriba);
               $(this).css('left', abajo);
             });
@@ -22,18 +22,18 @@
     </script>
 </head>
 <body>
-        <i class="i text-secondary">@soygabydigital</i>
     <div class="container"> 
-        <div class="text-center" style="margin-top: 2em;">
+        <div class="text-center">
             <h1> <strong>¿Quieres ser mi cliente?</strong>  </h1>
         </div>
 
-        <div class="row">
-            <div class="col">
-                <p class="p1 btn btn-dark">No</p>
-            </div>
-            <div class="col">
+        <div class="row text-center">
+            <div class="col-md-6">
                 <p onclick="dijoSi()" class="p2 btn btn-dark">Si</p>
+            </div>
+
+            <div class="col-md-6 ">
+                <p class="p1 btn btn-dark">No</p>
             </div>
         </div>
 
